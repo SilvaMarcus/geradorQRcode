@@ -11,7 +11,7 @@
      justify-content: center;
      align-items: center;
      text-align: center;
-    
+      margin: auto;
  }
  
  #titulo-qr{
@@ -28,8 +28,8 @@
  .container-form-qr{
      display: flex;
      flex-direction: column;
-     height: 420px;
-     width: 290px;
+     min-height: 490px;
+     min-width: 300px; 
      border-radius: 5px;
      align-items: center;
      justify-content: center;
@@ -62,8 +62,8 @@
    }
  
  .img-qrcode{
-     width: 165px;
-     height: 165px;
+     width: 250px;
+     height: 250px;
      margin: 10px;
      border: solid 1px rgb(200, 0, 255) ;
  }
@@ -79,10 +79,7 @@
      border-radius: 20px;
      max-width: 75px;
      margin-top:10px;
-     /* border-color: rgb(200, 0, 255) solid ; */
-     border: solid 2px ;
-
-         
+     border: solid 2px ;     
  }
  
  
@@ -91,10 +88,12 @@
      color: rgb(255, 255, 255);
  }
 
- body .fa-print{
-    margin-top: 30px;
-    display: none ;
+
+
+.main-qr .fa-print,  .hide {
+    display: none;
  }
+
 
  .show {
     display: block !important;
